@@ -1,0 +1,118 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,400italic);
+
+* {
+    padding:0;
+    margin:0;
+}
+
+.container {
+    margin-top: 80px;
+}
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+table tr th {
+    width: 16.67%;
+}
+
+.table td {
+    font-size: .80rem;
+}
+
+
+footer {
+    margin: 0px auto;
+    height:65px;
+    border-top: 1px dotted #666;
+    clear:both; 	/*to recognize the main div wrapper*/
+    line-height:50px; /*centered the footer section*/
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+p {
+    margin-bottom: 1px;
+}
+
+.overview {
+    margin-top: 10px;
+}
+
+
+footer ul li {
+    float:left;
+    list-style-type:none;  /*removed the bullets*/
+    margin: 0 30px 0 10px;
+    color: #666;
+    font-size:.7em;
+    position: relative;
+    display: block;
+    right: 50%;
+}
+
+footer ul {
+    list-style: none;
+    position: relative;
+    float: left;
+    display: block;
+    left: 50%;
+}
+
+p {
+    font-size: 0.75em;
+}
+
+.media {
+    border-radius: 5px;
+}
+
+.media .media-body h5{
+    margin: auto;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+h3 {
+    font-size: 1.50rem;
+}
+
+.mt-0 {
+    margin-top: 5px!important;
+}
+
+.align-self-start {
+    border-radius: 5px;
+}
+
+.btn {
+    font-size: .7rem;
+}
+
+.btn-info {
+    margin: 5px;
+}
+
+img {
+    width: 180px;
+    height: 250px;
+}
+
+label {
+    font-size: .90rem;
+}
+
+label.checkbox-inline {
+    margin-right: 10px;
+}
+
+/* --- Style --- */
+navbar {
+    background-color: #e74c3c;
+}
