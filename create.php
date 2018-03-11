@@ -26,7 +26,7 @@ $genres = Movie::select_all_genres();
 
             <div class="form-group">
                 <label for="imdbID">IMDB ID: </label>
-                <input type="text" class="form-control" id="imdbId" placeholder="Enter IMDB ID" name="imdbId" pattern="tt\d{7}">
+                <input type="text" class="form-control" id="imdbId" placeholder="Enter IMDB ID" name="imdbId" pattern="tt\d{7}" title="IMDB ID should start with lowercase double t followed by 7 digit numbers e.g. tt1234567">
             </div>
 
             <div class="form-group">
