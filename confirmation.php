@@ -1,5 +1,5 @@
 <?php
-header("refresh: 5; url=index.php");
+#header("refresh: 5; url=index.php");
 
 require('dbconnection.php');
 require('model/Movie.php');
@@ -86,7 +86,33 @@ if (!$isDupeImdbID) {
 
         <?php } ?>
         <br/>
-        <p> Redirecting to Home page in 5 seconds... </p>
+        <p>Redirecting to Home page in <span id="count">5</span> seconds...</p>
+
+
+<script>
+    window.onload = function(){
+
+        (function(){
+            var counter = 5;
+
+            setInterval(function() {
+                counter--;
+                if (counter >= 0) {
+                    span = document.getElementById("count");
+                    span.innerHTML = counter;
+                }
+                // Display 'counter' wherever you want to display it.
+                if (counter === 0) {
+                    //alert('this is where it happens');
+                    window.location = 'index.php';
+                    clearInterval(counter);
+                }
+
+            }, 1000);
+
+        })();
+    }
+</script>
 
 
 <?php include 'templates/footer.html'; ?>

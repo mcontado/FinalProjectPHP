@@ -80,7 +80,7 @@ h5 {
 }
 
 h3 {
-    font-size: 1.50rem;
+    font-size: 1.30rem;
 }
 
 .mt-0 {
@@ -113,6 +113,20 @@ label.checkbox-inline {
 }
 
 /* --- Style --- */
-navbar {
-    background-color: #e74c3c;
+.form-control {
+    padding-top: .15rem;
+    padding-bottom: .15rem;
+    font-size: .90rem;
 }
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: .5rem;
+    font-size: .9rem;
+}
+
+.btn .btn-outline-info .my-2 .my-sm-0 {
+    font-size: .6rem;
+}
+
+
