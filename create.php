@@ -53,4 +53,5 @@ $genres = Movie::select_all_genres();
             <button type="submit" class="btn btn-info btn-rounded"">Add to Watch List</button>
         </form>
     <br>
+<br>
 <?php include 'templates/footer.html'; ?>
