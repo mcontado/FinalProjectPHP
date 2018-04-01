@@ -1,9 +1,9 @@
 <?php
-
+require("configuration.php");
 class Database {
-    private static $dsn = 'mysql:host=localhost;dbname=moviedb';
-    private static $userName = 'root';
-    private static $password = 'root';
+    private static $dsn = 'mysql:host='.DB_HOST.';dbname='.DB_DATABASE;
+    private static $userName = DB_USER;
+    private static $password = DB_PASSWORD;
     private static $db;
 
     private function __construct() {}
